@@ -60,7 +60,7 @@ RSpec.describe 'the scrabble scoring system' do
     jumble.each do |char|
       total += values[char]
     end 
-    expect(total).to eq(9)
+    expect(total).to eq(18)
   end 
 
 end
